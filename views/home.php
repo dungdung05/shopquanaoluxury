@@ -13,12 +13,13 @@ $product_order_by = $ProductModel->select_products_order_by(3, 'ASC');
         <div class="col-lg-8 col-sm-12 d-flex justify-content-center">
             <div id="header-carousel" class="carousel slide" data-ride="carousel" style="width: 100%; max-width: 1000px;">
                 <div class="carousel-inner" style="border-radius: 10px;">
-                    <div class="carousel-item active">
+                  <div class="carousel-item active">
                         <img class="img-fluid" src="upload/banner-quanao-main8.png" alt="Image">
                     </div>
                     <div class="carousel-item">
                         <img class="img-fluid" src="upload/banner-quanao-main7.png" alt="Image">
                     </div>
+                   
                 </div>
                 <a class="carousel-control-prev" href="#header-carousel" data-slide="prev">
                     <div class="btn btn-dark" style="width: 45px; height: 45px;">
@@ -137,6 +138,14 @@ $product_order_by = $ProductModel->select_products_order_by(3, 'ASC');
                         <div class="product__item__text">
                             <h6 class="text-truncate-1"><a href=""><?= $name ?></a></h6>
 
+                            <!-- Số sao -->
+                            <!-- <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div> -->
                             <div class="product__price" id="product__price"><?= number_format($sale_price) . "₫" ?> <span><?= number_format($price) . "đ" ?></span></div>
                         </div>
                     </div>
